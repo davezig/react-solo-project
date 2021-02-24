@@ -7,7 +7,8 @@ import './SplashPage.css';
 const SplashPage = () => {
     return (
         <div className= "splashPage-main-div">
-            <div className="splashPage-image-div"> </div>
+            <div className="splashPage-image-div"></div>
+            <div className="splashPage-text-bottom"><span>Made possible by Hosts</span></div>
         </div>
     )
 }
