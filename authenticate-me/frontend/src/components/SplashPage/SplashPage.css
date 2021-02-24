@@ -32,3 +32,7 @@
 .splashPage-text-bottom span{
     font-size: 24px;
 }
+
+#to-do-list {
+    color: red;
+}

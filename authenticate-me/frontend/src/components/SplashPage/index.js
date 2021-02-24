@@ -9,6 +9,7 @@ const SplashPage = () => {
         <div className= "splashPage-main-div">
             <div className="splashPage-image-div"></div>
             <div className="splashPage-text-bottom"><span>(SplashPage) Made possible by Hosts</span></div>
+            <span id="to-do-list">[] make splash page blank [] component for landing image [] component underneath that for explore nearby</span>
         </div>
     )
 }

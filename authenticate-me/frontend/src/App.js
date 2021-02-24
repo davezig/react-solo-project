@@ -7,6 +7,7 @@ import * as sessionActions from "./store/session";
 import Navigation from "./components/Navigation";
 import SplashPage from "./components/SplashPage";
 import LandingImage from "./components/LandingImage";
+import ExploreNearby from "./components/ExploreNearby";
 
 function App() {
   const dispatch = useDispatch();
@@ -25,13 +26,18 @@ function App() {
           <Switch>
             <Route exact path="/">
               <LandingImage />
-              {/* <SplashPage /> */}
+            </Route>
+            <Route path="/splashpage">
+            <SplashPage />
             </Route>
             <Route path="/login">
               <LoginFormPage />
             </Route>
             <Route path="/signup">
               <SignupFormPage />
+            </Route>
+            <Route path="/explore">
+              <ExploreNearby />
             </Route>
             <Redirect to="/" />
           </Switch>
@@ -54,6 +60,9 @@ function App() {
             </Route>
             <Route path="/signup">
               <SignupFormPage />
+            </Route>
+            <Route path="/explore">
+              <ExploreNearby />
             </Route>
           </Switch>
         )}
