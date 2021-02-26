@@ -1,13 +1,13 @@
 /* needs to be edited! */
 
-.splashPage-main-div {
-    background-color: black;
+.exploreNearby-main-div {
+    background-color: white;
     min-height: 550px;
     max-height: 950px;
     height: 65vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -24,12 +24,14 @@
     background-color: red;
 }
 
-.splashPage-text-bottom {
-    color: white;
-    justify-content: center;
+.exploreNearby-title-text {
+    color: black;
     display: flex;
-    align-items: center;
+
+    justify-content: flex-start;
+    align-items: flex-end;
     /* height: 10%; */
+    font-size: 36px;
 }
 
 .splashPage-text-bottom span{

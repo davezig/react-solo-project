@@ -9,6 +9,7 @@ const ExploreNearby = () => {
         <div className="exploreNearby-main-div">
             <div className="exploreNearby-title-text"><span>Explore Nearby</span></div>
             <div className="exploreNearby-small-images"></div>
+            <img src={"../img/explore/3d541658-fb05-4316-af26-b8c1337fbe8c.webp"}></img>
             <div className="exploreNearby-descriptive-text"></div>
         </div>
     )

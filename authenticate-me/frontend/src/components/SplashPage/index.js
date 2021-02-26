@@ -3,6 +3,7 @@ import * as sessionActions from '../../store/session';
 import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import './SplashPage.css';
+import ExploreNearby from '../ExploreNearby';
 
 const SplashPage = () => {
     return (
@@ -10,6 +11,7 @@ const SplashPage = () => {
             <div className="splashPage-image-div"></div>
             <div className="splashPage-text-bottom"><span>(SplashPage) Made possible by Hosts</span></div>
             <span id="to-do-list">[] make splash page blank [] component for landing image [] component underneath that for explore nearby</span>
+            <ExploreNearby />
         </div>
     )
 }
