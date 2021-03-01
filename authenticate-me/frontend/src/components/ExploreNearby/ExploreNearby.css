@@ -16,3 +16,16 @@
 }
 
 .exploreNearby__small-images--descriptive-text{}
+
+#exploreNearby__small-images--descriptive-text--city{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+#exploreNearby__small-images--descriptive-text--time{
+    font-size: 14px;
+    padding: 10px;
+    
+}
