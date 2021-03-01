@@ -25,7 +25,10 @@ function App() {
         {isLoaded && (
           <Switch>
             <Route exact path="/">
-              <LandingImage />
+              <SplashPage />
+            </Route>
+            <Route path="/landingimage">
+            <LandingImage />
             </Route>
             <Route path="/splashpage">
             <SplashPage />
