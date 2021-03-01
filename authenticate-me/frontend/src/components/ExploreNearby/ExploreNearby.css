@@ -1,4 +1,4 @@
-/* needs to be edited! */
+/* needs to be edited!
 
 .exploreNearby-main-div {
     background-color: white;
@@ -14,30 +14,30 @@
 
 .splashPage-image-div {
     /* padding-top: 30px; */
-    margin-top: 30px;
+    /* margin-top: 30px;
     height: 75%;
-    width: 90%;
+    width: 90%; */
     /* background-image: url(../../img/splash-main-img.webp); */
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: red;
 }
 
 .exploreNearby-title-text {
-    color: black;
-    display: flex;
+    color: black; */
+    /* display: flex;
 
     justify-content: flex-start;
     align-items: flex-end;
     /* height: 10%; */
-    font-size: 36px;
-}
-
+    /* font-size: 36px; */
+/* } */
+/* 
 .splashPage-text-bottom span{
     font-size: 24px;
 }
 
 #to-do-list {
     color: red;
-}
+} */

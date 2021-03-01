@@ -4,15 +4,24 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import './SplashPage.css';
 import ExploreNearby from '../ExploreNearby';
+import LiveAnywhere from '../LiveAnywhere';
+
+const titleAndPicArray = [{title: 'Test Title1', url: 'https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=480'},
+                            {title: 'Test Title2', url: 'https://a0.muscache.com/im/pictures/36f53e61-db8d-403c-9122-5b761c0e4264.jpg?im_w=480'},
+                            {title: 'Test Title3', url: 'https://a0.muscache.com/im/pictures/a596c528-a2e9-4417-9bbe-ceb68b2f6b9c.jpg?im_w=480'}]
 
 const SplashPage = () => {
     return (
+        <>
         <div className= "splashPage-main-div">
             <div className="splashPage-image-div"></div>
             <div className="splashPage-text-bottom"><span>(SplashPage) Made possible by Hosts</span></div>
             <span id="to-do-list">[] make splash page blank [] component for landing image [] component underneath that for explore nearby</span>
-            <ExploreNearby />
         </div>
+        <ExploreNearby />
+        <LiveAnywhere titleAndPicArray={titleAndPicArray}/>
+        </>
+        
     )
 }
 
