@@ -3,9 +3,18 @@
 }
 
 .liveAnywhere__header{
-    
+    font-size: 32px;
 }
 
 .liveAnywhere__images {
     display: flex;
+    padding: 5px;
+    font-size: 18px;
+    
+}
+
+.liveAnywhere__images--img img {
+    border-radius: 5%;
+    height: 362px;
+    width: 362px;
 }
